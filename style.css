@@ -1,0 +1,67 @@
+body{
+    background-image: white;
+}
+
+@media only screen and (max-width: 320px) {
+    body{
+        background-image: White;
+        
+    }
+    .stopwatch{
+ font-size: 20px !important;
+}
+  }
+  @media only screen and (max-width: 320px) {
+    .timeval{
+        margin: 4px !important;
+        font-size: 15px !important;
+    }
+      }
+
+  .stopwatch{
+    text-align: center; 
+    font-size: 60px;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+.time{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.timeone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px !important;
+}
+.time1{ 
+    border: 2px solid rgb(245, 10, 10);
+    padding: 10px 20px 10px 20px  !important;
+    margin: 20px !important;
+    font-size: 40px !important;
+    background-color: rgb(245, 10, 10);
+    color: white;
+    border-radius: 6px !important;
+}
+.timeval{
+    margin: 7px !important;
+    font-size: 35px !important;
+}
+.timetwo{
+    text-align: center;
+    margin-top: 20px !important;
+    margin-bottom: 35% !important;
+}
+.time2{
+    padding: 10px !important;
+    font-size: 30px !important;
+    background-image: linear-gradient(rgb(216, 55, 55),#d1654a,#e98c67,#ebaf95) ;
+    border-radius: 6px !important;
+    margin-right: 10px !important;
+    outline: none;
+    border: black;
+
+}
